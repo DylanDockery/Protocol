@@ -22,3 +22,9 @@ Instuctions:
  The server must be started before the client and the port must be set. Once server is started the client can be started and the port and message must be set. The IP address is optional but will default to 127.0.0.1 if none is given. 
   Not that if the message contains any spaces the whole message msut be enclosed in double quotation marks ""
   Client gives no out put but the server prints data as it is received. 
+
+ Areas of improvement:
+ The processsing of the check sum may be able to be combined into a single loop than two consecutive.
+ May be possible to do this in a manner where bytearrays are not used.
+ Some code may be better off enclosed in a function rather than in the boddy of the while loop.
+ 
