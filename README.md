@@ -6,7 +6,7 @@ Protocol:
 Identifier is the first bit with a 1
 Flag options are SND, ACK, and NACK
 Sequnce number alternates from 1 to 0 begining at 1
-Check sum is calculated using a XxO% on buytes 2 at a time
+Check sum is calculated using a XOR on buytes 2 at a time
 
 Client arguements:
 -i <IP> (address of the server) (optional) (default: 127.0.0.1)
